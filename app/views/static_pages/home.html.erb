@@ -1,0 +1,5 @@
+<%= form_tag({:action => :upload}, :multipart => true) do %>
+  <%= file_field_tag :pdf_file %>
+  <%= file_field_tag :pdf_file_two %>
+  <%= button_tag 'submit' %>
+<% end %>
